@@ -10,6 +10,12 @@ To use the CSV to JSON converter, run the script with the following command:
 csv-to-json --csvDir=<path/to/csv/files> --objName=<name/of/the/object/key> [--jsonDir=<path/to/output/json/files>] [--columns=<comma/separated/list/of/columns>]
 ```
 
+Example:
+
+```bash
+csv-to-json --csvDir=./test --objName=Key --columns=en,ja,fr
+```
+
 ## Arguments
 
 | Argument    | Description                                | Default          | Required/Optional |
@@ -32,7 +38,7 @@ The script generates JSON files with the following structure:
 
 ```json
 {
-  "name": "<objName>",
+  "name": "<fileName>",
   "items": {
     "<key1>": {
       "<property1>": "<value1>",

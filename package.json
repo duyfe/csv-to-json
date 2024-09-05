@@ -1,14 +1,15 @@
 {
-  "name": "csv-to-json",
-  "version": "0.0.1",
+  "name": "@duyfe/csv-to-json",
+  "private": false,
+  "version": "1.0.0",
   "author": "Kane Pham",
   "description": "Export csv to json",
+  "homepage": "https://github.com/duyfe/csv-to-json",
+  "repository": "https://github.com/duyfe/csv-to-json",
   "main": "index.js",
-  "bin": {
-    "csv-to-json": "./index.js"
-  },
   "scripts": {
-    "export": "node index.js"
+    "export": "node index.js",
+    "test": ""
   },
   "keywords": [
     "csv",
@@ -16,7 +17,7 @@
     "parse",
     "export"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "csv-parse": "^5.5.6",
     "glob": "^11.0.0"
