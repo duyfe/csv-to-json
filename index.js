@@ -1,5 +1,5 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-// @ts-check
+#!/usr/bin/env node
+
 const fs = require('fs')
 const path = require('path')
 const { parse } = require('csv-parse/sync')
