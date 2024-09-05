@@ -1,0 +1,27 @@
+{
+  "name": "csv-to-json",
+  "version": "0.0.1",
+  "author": "Kane Pham",
+  "description": "Export csv to json",
+  "main": "index.js",
+  "bin": {
+    "csv-to-json": "./index.js"
+  },
+  "scripts": {
+    "export": "node index.js"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "parse",
+    "export"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "glob": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=18.16.0"
+  }
+}
